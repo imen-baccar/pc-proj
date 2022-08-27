@@ -1,0 +1,138 @@
+
+
+*{
+   margin: 0;
+   padding: 0;
+}
+body{
+    background-color: #c1c4f2;
+}
+.card-pc{
+    column-gap: 20px;
+}
+.haki{
+    width: 80px;
+    margin-top: 28px;
+}
+.law{
+    color: rgb(81, 3, 77);
+    width: 100px;
+}
+.exa{
+    display: flex;
+    -ms-flex-align: baseline;
+    justify-content: space-between;
+    border: 2px solid #3b4157;
+    margin: 45px;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: azure;
+}
+.sizee{
+   margin-top: 20px;
+   width: 75%;
+}
+.size{
+    font-size: x-large;
+    color:rgb(81, 3, 77);
+    width: 80%;
+}
+#buy-btn{
+    border: none;
+    background-color: #ff0800;
+    color: rgb(241, 241, 245);
+    font-size: 0.8em;
+    font-weight: 700;
+    width: 60px;
+    height: 30px;
+    margin:15px;
+    border-radius: 5px;
+}
+#buy-yellow{
+    border: none;
+    background-color: #4ae11c;
+    color: rgb(241, 241, 245);
+    font-size: 0.8em;
+    font-weight: 700;
+    width: 60px;
+    height: 30px;
+    margin:15px;
+    border-radius: 5px;
+
+}
+#ere{
+    width: 200px;
+    height: 220px;
+}
+
+#back {
+    width: 80px;
+}
+header nav{
+    background-color: #3b4157;
+    border-end-start-radius: 50px;
+    width: 100%;
+    border-end-end-radius: 50px;
+    height: 100px;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+form {
+   
+
+    
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+form input{
+   width: 350px;
+   height: 40px;
+   border: none;
+   outline: none;
+   border-radius: 20px;
+   padding: 20px;
+}
+
+form .sershlogo{
+    position: absolute;
+    margin-left: 300px;
+}
+    #ds {
+        width: 24px;
+        margin-right: 5px;
+        margin-top: 0px;
+        height: 20px;
+        /* align-self: center; */
+    }
+
+
+
+
+
+    .panImg{
+        width: 50%;
+    }
+    .panier{
+       
+        width: 100px !important;
+        width:50px;
+        height: 50px;
+    }
+.hp1{
+    width: 80%;
+}
+@media screen and (max-width: 1000px) {
+    /* write your CSS in this code block */
+  }
+ 
+  .buy-btn:hover{
+    transform: scale(1.2);
+  }
